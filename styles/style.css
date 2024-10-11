@@ -4,6 +4,11 @@
     font-family: "Afacad Flux", sans-serif;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 .text-center{
     text-align: center;
 }
@@ -102,4 +107,115 @@
     justify-content: left;
     align-items: center;
     background-color: antiquewhite;
+}
+
+.seccion-productos h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+}
+
+.card-1{
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    width: 1200px;
+    height: 400px;
+    
+}
+
+.card-1:nth-child(1){
+    grid-template-columns: 3fr 1fr;
+}
+
+.producto-card1{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img//producto1.jpg);
+ 
+}
+
+.producto-descripcion{
+    display: grid;
+    align-items: center;
+    font-size: 22px;
+    background-color: rgb(149, 116, 74);
+    color: white;
+    text-align: center;
+}
+
+.producto-boton{
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.producto-boton:hover{
+    cursor: pointer;
+}
+
+.card-2{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: 0 30px;
+}
+
+.producto-card2{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img//producto2.jpg);
+ 
+}
+
+.card-3{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: 0 30px;
+}
+
+.seccion-footer{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(197, 197, 197);
+    margin-bottom: 80px;
+}
+
+.seccion-footer a{
+    display: block;
+    
+}
+
+.seccion-footer h3{
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.lista-footer{
+    width: 300px;
+    margin-top: 50px;
+}
+
+.lista-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-message{
+    display: flex;
+    justify-content: center;
 }
