@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 64px; font-weight: 600;
+    
+}
+
+.titulo a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo span{
+    color: rgb(224, 138, 57);
+}
+
+.contenedor-navbar{
+
+    
+    border-top: 1px solid rgb(155, 155, 155);
+}
+
+.contenedor-navbar a{
+    text-decoration: none;
+}
+
+.nav-enlaces{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+    text-align: center;
+}
+
+.banner-image{
+    background-image: url(/img/principal.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.titulo-categorias{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.card-categorias{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card-categorias p{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.seccion-nosotros{
+    margin: 100px 0;
+}
+
+
+.contenedor-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.seccion-nosotros h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.imagen-nosotros{
+    background-image: url(/img/producto2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.texto-nosotros{
+    padding-left: 20px;
+    font-size: 22px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: antiquewhite;
+}
